@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:background="@drawable/header_bg">
+    android:background="@drawable/home_gradient">
 
     <LinearLayout
         android:id="@+id/parent"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         tools:ignore="RtlHardcoded">
 
         <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -23,7 +23,7 @@
             android:layout_margin="15dp"
             android:scaleType="centerCrop"
             android:src="@drawable/user_default"
-            app:civ_border_color="@color/black"
+            app:civ_border_color="@color/white"
             app:civ_border_width="2dp" />
 
         <TextView
@@ -35,7 +35,7 @@
             android:lines="1"
             android:padding="2dp"
             android:text=""
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             tools:ignore="HardcodedText,ObsoleteLayoutParam" />
 
 
@@ -50,7 +50,7 @@
         android:layout_marginEnd="@dimen/margin_20"
         android:layout_marginRight="@dimen/margin_20"
         android:orientation="vertical"
-        android:visibility="gone"
+        android:visibility="visible"
         tools:ignore="RtlHardcoded">
 
 
@@ -64,11 +64,11 @@
             android:lines="1"
             android:padding="2dp"
             android:text="@string/online"
+            android:textColor="@color/white"
             android:visibility="gone"
             tools:ignore="HardcodedText,ObsoleteLayoutParam" />
 
         <android.support.v7.widget.SwitchCompat
-
 
             android:id="@+id/online"
             android:layout_width="wrap_content"
@@ -76,7 +76,6 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_gravity="center_horizontal"
-
             android:gravity="center_horizontal"
             android:padding="10dp"
             android:visibility="gone"
@@ -86,7 +85,7 @@
     </LinearLayout>
 
     <TextView
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:id="@+id/version"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

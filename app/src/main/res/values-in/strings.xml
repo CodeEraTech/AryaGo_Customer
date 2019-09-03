@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">"TaxiCustomer"</string>
+    <string name="app_name">"AryaGo"</string>
 
     <string name="google_android_map_api_key">AIzaSyAlBu8MsC7jxJ68rpRR722Ojl_HQiWpnhQ</string>
     <string name="mapboxkey">pk.eyJ1IjoiaWNhbnN0dWRpb3oiLCJhIjoiY2oyMXQ3dGRpMDAwdDJ3bXpmZHRkdTBtNyJ9.PxslIcrVRj_gVgiv-Y-jog</string>

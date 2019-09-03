@@ -3,27 +3,53 @@
     <item
         android:id="@+id/home"
         android:icon="@mipmap/ic_home_black_24dp"
-        android:title="Home"></item>
+        android:title="Home"
+        ></item>
     <item
-        android:id="@+id/pending_requests"
-        android:icon="@mipmap/ic_hourglass_empty_black_24dp"
-        android:title="Pending Requests"></item>
+        android:id="@+id/completed_rides"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="My Bookings"></item>
+
+<!--    <item-->
+<!--        android:id="@+id/pending_requests"-->
+<!--        android:icon="@mipmap/ic_hourglass_empty_black_24dp"-->
+<!--        android:title="Pending Requests"-->
+<!--        android:iconTint="@color/kotakBlue"-->
+<!--        ></item>-->
+    <item
+        android:id="@+id/offers"
+        android:icon="@drawable/ic_offer"
+        android:title="Offers"></item>
+    <item
+        android:id="@+id/safety"
+        android:icon="@drawable/ic_emergency"
+        android:title="Sefety"></item>
+    <item
+        android:id="@+id/faqs"
+        android:icon="@drawable/ic_question_answer_black_24dp"
+        android:title="FAQs"></item>
     <item
         android:id="@+id/accepted_requests"
         android:icon="@mipmap/ic_hourglass_full_black_24dp"
-        android:title="Accepted Requests"></item>
-    <item
-        android:id="@+id/completed_rides"
-        android:icon="@mipmap/ic_thumb_up_black_24dp"
-        android:title="Completed Rides"></item>
+        android:title="Your Requests"></item>
+
     <item
         android:id="@+id/cancelled"
         android:icon="@mipmap/ic_cancel_black_24dp"
         android:title="Cancelled"></item>
+
     <item
-        android:id="@+id/profile"
-        android:icon="@mipmap/ic_account_circle_black_24dp"
-        android:title="Profile"></item>
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_feedback_black_24dp"
+        android:title="Feedback"></item>
+    <item
+        android:id="@+id/share_app"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share App"></item>
+<!--    <item-->
+<!--        android:id="@+id/profile"-->
+<!--        android:icon="@mipmap/ic_account_circle_black_24dp"-->
+<!--        android:title="Profile"></item>-->
     <item
         android:id="@+id/logout"
         android:icon="@mipmap/ic_power_settings_new_black_24dp"

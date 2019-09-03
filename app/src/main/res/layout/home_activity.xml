@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@color/white"
     android:scrollbars="horizontal">
 
     <RelativeLayout
@@ -16,7 +16,7 @@
             android:id="@+id/drawer_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"
+            android:background="@color/white"
             tools:openDrawer="start">
 
             <LinearLayout
@@ -29,8 +29,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     android:layout_gravity="center"
-                    android:background="@color/text_color"
-
+                    android:background="@color/yellow"
                     app:popupTheme="@style/AppTheme.PopupOverlay">
 
                 </android.support.v7.widget.Toolbar>
@@ -40,7 +39,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignTop="@+id/drawer_layout"
-                    android:background="@color/hint"
+                    android:background="@color/white"
                     android:scrollbars="horizontal">
 
 

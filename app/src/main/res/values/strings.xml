@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TaxiCustomer</string>
+    <string name="app_name">AryaGo</string>
 
 
     <!--Do not change this for localization -->
@@ -38,7 +38,7 @@
     <string name="accepted_request">Accepted Request</string>
     <string name="pending_request">Pending Request</string>
     <string name="cancelled_request">Cancelled Request</string>
-    <string name="completed_request">Completed Request</string>
+    <string name="completed_request">My Bookings</string>
     <string name="couldnt_get_location">couldn\'t get your location</string>
     <string name="online">you are online</string>
     <string name="error_occurred">error occurred</string>
